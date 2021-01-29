@@ -1,50 +1,70 @@
-/* fonts */
-
-div.jqcloud {
-    font-size: 10px;
-    line-height: normal;
+ul {
+	margin-top: 50px;
+	list-style-type: none;
 }
 
-div.jqcloud a {
-    font-size: inherit;
-    text-decoration: none;
+li {
+	float: left;
 }
 
-div.jqcloud span.w10 { font-size: 550%; }
-div.jqcloud span.w9 { font-size: 500%; }
-div.jqcloud span.w8 { font-size: 450%; }
-div.jqcloud span.w7 { font-size: 400%; }
-div.jqcloud span.w6 { font-size: 350%; }
-div.jqcloud span.w5 { font-size: 300%; }
-div.jqcloud span.w4 { font-size: 250%; }
-div.jqcloud span.w3 { font-size: 200%; }
-div.jqcloud span.w2 { font-size: 150%; }
-div.jqcloud span.w1 { font-size: 100%; }
-
-/* colors */
-
-div.jqcloud { color: #2BA0FD; }
-div.jqcloud span.w10 { color: #3D5A68; }
-div.jqcloud span.w9 { color: #563225; }
-div.jqcloud span.w8 { color: #DC7500; }
-div.jqcloud span.w7 { color: #298C2D; }
-div.jqcloud span.w6 { color:  #0073D0; }
-div.jqcloud span.w5 { color:  #1C2E92; }
-div.jqcloud span.w4 { color: #441794; }
-div.jqcloud span.w3 { color: #79048D; }
-div.jqcloud span.w2 { color: #C60040; }
-div.jqcloud span.w1 { color: #D12013; }
-div.jqcloud span:hover { color: #0099B2; }
-
-
-/* layout */
-
-div.jqcloud {
-    overflow: hidden;
-    position: relative;
-    margin: 20px auto;
+ul li a {
+	text-decoration: none;
+	line-height: 2.3em;
+}
+ul li a:hover {
+	text-decoration: none;
+	
 }
 
-div.jqcloud span {
-    padding: 0;
+ul li a.size1 {
+	color: #666;
+	padding: 24px;
 }
+	ul li a.size1:hover {
+		background-color: #999;
+		color: white;
+	}
+
+ul li a.size2 {
+	color: #912600;
+	padding: 12px;
+}
+	ul li a.size2:hover {
+		background-color: #cc3500;
+		color: white;
+	}
+
+ul li a.size3 {
+	color: #877900;
+	padding: 18px;
+}
+	ul li a.size3:hover {
+		background-color: #d8c100;
+		color: white;
+	}
+	
+ul li a.size4 {
+	color: #1d6c01;
+	padding: 8px;
+}
+	ul li a.size4:hover {
+		background-color: #2daf00;
+		color: white;
+	}
+ul li a.size5 {
+	color: #004e6b;
+	padding: 6px;
+}
+	ul li a.size5:hover {
+		background-color: #007ead;
+		color: white;
+	}
+	
+ul li a.size6 {
+	color: #430069;
+	padding: 24px;
+}
+	ul li a.size6:hover {
+		background-color: #7600b9;
+		color: white;
+	}
